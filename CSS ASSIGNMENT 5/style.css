@@ -1,0 +1,282 @@
+:root {
+  --green: rgb(9, 134, 13);
+}
+
+body {
+  font-family: poppins, serif;
+}
+
+.containerr {
+  margin: 50px auto;
+  max-width: 1100px;
+}
+
+/* nav */
+nav ul {
+  text-align: center;
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+nav ul li .nav-link {
+  color: black;
+}
+
+nav ul li .nav-link:hover {
+  color: var(--green);
+}
+
+.navbar-toggler-icon {
+  background-color: rgb(166, 166, 175);
+}
+
+.hero {
+  margin: 20px 50px;
+}
+
+.form-field > div {
+  display: flex;
+  flex-direction: column;
+}
+.checkout {
+  padding-top: 35px;
+}
+
+.checkout .basic-info {
+  margin: 50px 0;
+}
+.checkout .pmt-info {
+  margin: 50px 0;
+}
+.transparent {
+  display: none;
+}
+.checkout h3 {
+  padding-top: 20px;
+}
+.checkout h5 {
+  padding: 7px 0;
+}
+.sm-circle {
+  margin-right: 8px;
+
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid rgb(37, 129, 204);
+  border-radius: 50%;
+  font-size: 14px;
+  color: rgb(37, 129, 204);
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+label {
+  padding: 10px 0;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 0.1px solid rgb(197, 195, 195);
+}
+
+.sm-wdth {
+  width: 87px;
+}
+
+.bttn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  background-color: var(--green);
+  color: white;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.xsm-circle {
+  margin-right: 8px;
+
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  border: 1.5px solid rgb(37, 129, 204);
+  border-radius: 50%;
+  font-size: 10px;
+  color: rgb(37, 129, 204);
+}
+
+.bold-txt {
+  font-weight: 600;
+}
+
+.grey-txt {
+  color: rgb(124, 122, 122);
+}
+.need-help {
+  text-align: center;
+}
+
+.grey-bg {
+  background-color: rgb(169, 168, 168);
+  display: inline;
+  color: white;
+  padding: 4px;
+  font-size: 0.5rem;
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+.grey-bg .bold-txt {
+  font-size: 0.8rem;
+}
+
+.f2 {
+  gap: 10px;
+}
+.freelancer {
+  background-color: rgb(49, 120, 212);
+  color: white;
+  margin: 40px 0;
+  padding: 30px;
+}
+.with-circ {
+  margin: 20px 0;
+}
+
+.big-99 {
+  font-size: 3.4rem;
+  font-weight: 300;
+}
+
+.sup-script {
+  vertical-align: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.sub-script {
+  vertical-align: sub;
+}
+
+.freelancer .xsm-circle {
+  color: white;
+  border-color: rgb(174, 217, 239);
+}
+
+.freelancer a {
+  color: white;
+  text-decoration-color: rgb(47, 169, 235);
+  text-decoration-thickness: 2.3px;
+}
+
+.cstm-hr {
+  background-color: rgb(47, 169, 235);
+  height: 2.5px;
+  margin: 30px auto;
+}
+
+.ital {
+  text-wrap: pretty;
+  font-style: italic;
+}
+
+.kirk-beard {
+  display: grid;
+  grid-template-columns: 40px 110px;
+  gap: 15px;
+}
+.kirk-beard p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.kirk-beard img {
+  width: 40px;
+}
+
+footer {
+  text-align: center;
+  color: rgb(124, 122, 122);
+  font-size: 12px;
+}
+
+footer a {
+  color: rgb(49, 120, 212);
+  text-decoration: none;
+}
+
+/* media queries */
+@media (min-width: 768px) and (max-width: 900px) {
+  nav ul li .acct {
+    border: 1.5px solid black;
+    border-radius: 5px;
+  }
+  .form-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 17px;
+  }
+  .form-field > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .f2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+  }
+  .transparent {
+    color: white;
+    display: block;
+  }
+}
+
+@media (min-width: 901px) {
+  nav ul li .acct {
+    border: 1.5px solid black;
+    border-radius: 5px;
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin: 50px 150px;
+  }
+  .freelancer {
+    margin: 0;
+    padding-top: 50px;
+    padding: 50px 30px;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .form-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 17px;
+  }
+  .form-field > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .f2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+  }
+  .transparent {
+    color: white;
+    display: block;
+  }
+}

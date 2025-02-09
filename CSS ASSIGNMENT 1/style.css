@@ -1,0 +1,41 @@
+body {
+  font-family: Poppins, serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.Title {
+  background-color: #ff0099;
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 0 auto;
+  position: relative;
+  top: -35px;
+}
+
+.content p {
+  color: #333;
+  font-size: 16px;
+  margin: 0px;
+  line-height: 1.5;
+  text-align: justify;
+}

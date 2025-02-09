@@ -1,0 +1,47 @@
+body {
+  font-family: poppins, serif;
+}
+
+.container {
+  background-color: #a3a8c8;
+  max-width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.white-box {
+  background-color: white;
+  margin: auto;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.text-content {
+  letter-spacing: 0.4px;
+  padding: 20px;
+}
+
+.text-content span {
+  font-weight: 100;
+  font-size: 15px;
+}
+
+img {
+  float: right;
+  width: 80%;
+}
+
+.yellow-box {
+  background-color: rgb(214, 209, 136);
+  padding: 5px 20px 5px 5px;
+  font-size: 10px;
+  font-weight: 800;
+  width: 105px;
+  border-radius: 20px 100px 100px 20px;
+}

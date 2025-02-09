@@ -1,0 +1,29 @@
+body {
+  font-family: poppins, serif;
+}
+
+.custom-button {
+  background-color: black; /* Black background */
+  color: white; /* White text */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.custom-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.custom-button:active {
+  transform: scale(0.95); /* Slight shrink effect on click */
+}

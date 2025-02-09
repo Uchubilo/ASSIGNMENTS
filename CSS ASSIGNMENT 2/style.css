@@ -1,0 +1,74 @@
+body {
+  font-family: poppins, serif;
+  line-height: 1.8;
+}
+
+.container {
+  max-width: fit-content;
+  margin: 10% auto;
+  border: 2px solid black;
+}
+
+.top-container {
+  border-bottom: 5px solid rgb(190, 187, 187);
+  padding: 50px 0;
+}
+.top-container .content {
+  padding: 15px;
+}
+
+.top-container .content span {
+  color: rgba(64, 165, 17, 0.823);
+}
+
+.bottom-container {
+  background-color: rgb(116, 120, 120);
+  padding: 70px 0;
+}
+
+.badge {
+  background-color: #ffbf00;
+  padding: 10px 20px;
+  font-weight: 900;
+  border-bottom: 7px solid #cc9900;
+  margin-top: -5px;
+  margin-left: -15px;
+}
+
+.bottom-container .content {
+  background: white;
+  padding: 1px 0 20px;
+  border-bottom: 5px solid rgb(171, 168, 168);
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .badge {
+    width: 270px;
+  }
+  .top-container .content {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .badge {
+    width: 270px;
+    margin-left: -25px;
+  }
+  .top-container .content {
+    width: 300px;
+  }
+
+  .bottom-container .content {
+    width: 808px;
+  }
+
+  .top-container {
+    padding: 50px 200px;
+  }
+
+  .bottom-container {
+    padding: 70px 200px;
+  }
+}
